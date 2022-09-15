@@ -1,0 +1,21 @@
+{
+    "name": "foo",
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "typescript": "^4.8.3"
+    },
+    "main": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "exports": {
+        ".": {
+            "require": "./build/index.js",
+            "types": "./build/index.d.ts"
+        },
+        "./bar": {
+            "require": "./build/bar/index.js",
+            "types": "./build/bar/index.d.ts"
+        }
+    }
+}

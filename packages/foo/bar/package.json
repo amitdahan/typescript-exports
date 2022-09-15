@@ -1,0 +1,4 @@
+{
+    "main": "../build/bar/index.js",
+    "types": "../build/bar/index.d.ts"
+}

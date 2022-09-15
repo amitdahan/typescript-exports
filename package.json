@@ -1,0 +1,9 @@
+{
+  "packageManager": "yarn@4.0.0-rc.18",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
